@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="citywars.finalproject.Controller.start_page_controller">
+    <children>
+        <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@../images/login.jpg" />
+            </image>
+        </ImageView>
+      <ImageView fitHeight="178.0" fitWidth="335.0" layoutX="233.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo.jpg" />
+         </image>
+      </ImageView>
+        <Button layoutX="323.0" layoutY="308.0" mnemonicParsing="false" onAction="#signupButtonAction" prefHeight="25.0" prefWidth="154.0" style="-fx-background-radius: 15; -fx-background-color: #11d9ff;" text="Sign Up">
+            <font>
+                <Font name="Calibri Bold" size="31.0" />
+            </font>
+        </Button>
+      <Button fx:id="loginButton" layoutX="323.0" layoutY="231.0" mnemonicParsing="false" onAction="#loginButtonAction" prefHeight="25.0" prefWidth="154.0" style="-fx-background-radius: 15; -fx-background-color: #ff0078;" text="Login">
+         <font>
+            <Font name="Calibri Bold" size="31.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,6 @@
+.button-with-image {
+    -fx-background-image: url("/images/buttons/play-button.png");
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
