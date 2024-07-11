@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="citywars.finalproject.Controller.select_mode_controller">
+    <children>
+        <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@../images/login.jpg" />
+            </image>
+        </ImageView>
+      <Button alignment="CENTER_RIGHT" layoutX="293.0" layoutY="218.0" mnemonicParsing="false" onAction="#TwoPlayerButton" prefHeight="65.0" prefWidth="228.0" style="-fx-background-radius: 10; -fx-background-color: #DF1E58;" styleClass="button-with-image" text="Two player mode" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Button>
+        <ImageView fitHeight="88.0" fitWidth="338.0" layoutX="231.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/logo.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="58.0" fitWidth="59.0" layoutX="301.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/twoPlayer.png" />
+            </image>
+        </ImageView>
+      <Button alignment="CENTER_RIGHT" layoutX="293.0" layoutY="290.0" mnemonicParsing="false" onAction="#BettingButton" prefHeight="65.0" prefWidth="228.0" style="-fx-background-radius: 10; -fx-background-color: #13A7BF;" styleClass="button-with-image" text="Winner Takes All!" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="64.0" fitWidth="50.0" layoutX="305.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bet.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="336.0" layoutY="169.0" prefHeight="29.0" prefWidth="141.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-padding: 5; -fx-text-fill: white; -fx-background-radius: 15; -fx-border-color: white; -fx-border-radius: 15;" text="Please select a mode:" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="39.0" fitWidth="69.0" layoutX="33.0" layoutY="33.0" onMouseClicked="#back_click_action" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/buttons/back.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

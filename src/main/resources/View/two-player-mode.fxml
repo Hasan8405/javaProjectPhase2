@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="citywars.finalproject.Controller.twoPlayer_mode_controller">
+    <children>
+        <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@../images/login.jpg" />
+            </image>
+        </ImageView>
+        <ImageView fitHeight="88.0" fitWidth="338.0" layoutX="231.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../images/logo.jpg" />
+            </image>
+        </ImageView>
+        <Label fx:id="username1Label" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="169.0" layoutY="237.0" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-padding: 5; -fx-text-fill: white; -fx-background-radius: 15; -fx-border-color: white; -fx-border-radius: 10;" textFill="WHITE">
+            <font>
+                <Font name="Cambria Italic" size="17.0" />
+            </font></Label>
+        <Label fx:id="username2Label" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="507.0" layoutY="237.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-padding: 5; -fx-text-fill: white; -fx-background-radius: 15; -fx-border-color: white; -fx-border-radius: 10;" textFill="WHITE">
+            <font>
+                <Font name="Cambria Italic" size="17.0" />
+            </font>
+        </Label>
+      <Label fx:id="healthLabel1" alignment="CENTER" contentDisplay="CENTER" layoutX="309.0" layoutY="140.0" prefHeight="32.0" prefWidth="182.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-padding: 5; -fx-text-fill: white; -fx-background-radius: 15; -fx-border-color: white; -fx-border-radius: 10;" text="Play two player Mode" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="password1Label" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="169.0" layoutY="284.0" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-padding: 5; -fx-text-fill: white; -fx-background-radius: 15; -fx-border-color: white; -fx-border-radius: 10;" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="password2Label" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="507.0" layoutY="284.0" prefHeight="17.0" prefWidth="123.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-padding: 5; -fx-text-fill: white; -fx-background-radius: 15; -fx-border-color: white; -fx-border-radius: 10;" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="healthLabel2" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="205.0" layoutY="194.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-padding: 5; -fx-text-fill: white; -fx-background-radius: 15; -fx-border-color: white; -fx-border-radius: 10;" text="user1" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="coinLabel2" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="543.0" layoutY="194.0" prefHeight="32.0" prefWidth="52.0" style="-fx-background-color: transparent; -fx-text-fill: black; -fx-padding: 5; -fx-text-fill: white; -fx-background-radius: 15; -fx-border-color: white; -fx-border-radius: 10;" text="user2" textFill="WHITE">
+         <font>
+            <Font name="Cambria Italic" size="17.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

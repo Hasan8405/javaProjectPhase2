@@ -27,7 +27,12 @@ public class game_menu_controller {
             }
         }
 
-    public void PlayButtonAction(ActionEvent event) {
+    public void PlayButtonAction(ActionEvent event) throws IOException{
+        Parent loginRoot = FXMLLoader.load(getClass().getResource("/View/select-mode.fxml"));
+        Stage stage = (Stage) ((javafx.scene.Node) event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(loginRoot);
+        stage.setScene(scene);
+        stage.show();
     }
 
     public void LogButtonAction(ActionEvent event) {
